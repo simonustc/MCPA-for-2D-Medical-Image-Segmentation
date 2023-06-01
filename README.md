@@ -56,16 +56,38 @@
         └── train.txt
 ```
 
-* For the datasets of retinal fundus segmentation, please sign up in the [official DRIVE website and download the dataset](https://drive.grand-challenge.org/), [official CHASE_DB1 website and download the dataset](https://blogs.kingston.ac.uk/retinal/chasedb1/), [official HRF website and download the dataset](https://www5.cs.fau.de/research/data/fundus-images/), and [official ROSE website and download the dataset]([https://www5.cs.fau.de/research/data/fundus-images/](https://imed.nimte.ac.cn/dataofrose.html). Please prepare data in the data directory:
+* For the datasets of vessel segmentation, please sign up in the [official DRIVE website and download the dataset](https://drive.grand-challenge.org/), [official CHASE_DB1 website and download the dataset](https://blogs.kingston.ac.uk/retinal/chasedb1/), [official HRF website and download the dataset](https://www5.cs.fau.de/research/data/fundus-images/), and [official ROSE website and download the dataset]([https://www5.cs.fau.de/research/data/fundus-images/](https://imed.nimte.ac.cn/dataofrose.html). Please prepare data in the data directory:
 ```
-├── MCPA_ACDC
-    ├──ACDC
-    │   ├── test_vol_h5
-    │   │   ├── case0001.npy.h5
-    │   │   └── *.npy.h5
-    │   └── train_npz
-    │       ├── case0005_slice000.npz
-    │       └── *.npz
+├── MCPA_vessel
+    ├──Dataset
+    │   ├── DRIVE
+    │   │   ├── training
+    │   │   │   ├── images
+    │   │   │   │   └── 21_training.tif
+    │   │   │   └── 1st_manual
+    │   │   │       └── 21_manual1.gif
+    │   │   └── test
+    │   │       ├── images  
+    │   │       │   └── 01_test.tif
+    │   │       └── 1st_manual
+    │   │           └── 01_manual1.gif
+    │   ├── CHASEDB1
+    │   │   ├── training
+    │   │   │   ├── images
+    │   │   │   │   └── Image_01L.jpg
+    │   │   │   └── 1st_manual
+    │   │   │       └── Image_01L_1stHO.png
+    │   │   └── test
+    │   │       ├── images  
+    │   │       │   └── Image_11L.jpg
+    │   │       └── 1st_manual
+    │   │           └── Image_11L_1stHO.png
+    │   └── RHF
+    │       └── all
+    │           ├── images
+    │           │   └── 01_test.tif
+    │           └── 1st_manual
+    │               └── 01_manual1.gif      
     └──lists
         ├── all.lst
         ├── test_vol.txt
