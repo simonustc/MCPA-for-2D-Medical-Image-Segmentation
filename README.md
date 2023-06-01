@@ -39,7 +39,7 @@
         └── train.txt
 ```
 
-* For the ACDC datasets, Please Sign up in the [official ACDC website and download the dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc). Or [Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd) to use the preprocessed data for we proposed. Please prepare data in the data directory:
+* For the ACDC datasets, please sign up in the [official ACDC website and download the dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc). Or [Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd) to use the preprocessed data for we proposed. Please prepare data in the data directory:
 
 ```
 ├── MCPA_ACDC
@@ -56,22 +56,22 @@
         └── train.txt
 ```
 
-* For the datasets of retinal fundus segmentation,  
-
-For ImageNet-LT and iNaturalist2018,  Please Sign up in the [official DRIVE website and download the dataset](https://drive.grand-challenge.org/),[official CHASE_DB1 website and download the dataset](https://blogs.kingston.ac.uk/retinal/chasedb1/), [official HRF website and download the dataset](https://www5.cs.fau.de/research/data/fundus-images/), and [official ROSE website and download the dataset]([https://www5.cs.fau.de/research/data/fundus-images/](https://imed.nimte.ac.cn/dataofrose.html).
-
-
-
-
+* For the datasets of retinal fundus segmentation, please sign up in the [official DRIVE website and download the dataset](https://drive.grand-challenge.org/), [official CHASE_DB1 website and download the dataset](https://blogs.kingston.ac.uk/retinal/chasedb1/), [official HRF website and download the dataset](https://www5.cs.fau.de/research/data/fundus-images/), and [official ROSE website and download the dataset]([https://www5.cs.fau.de/research/data/fundus-images/](https://imed.nimte.ac.cn/dataofrose.html). Please prepare data in the data directory:
 ```
-datasets
-├── data_txt
-    ├── iNaturalist18_train.txt
-    ├── iNaturalist18_val.txt
-    ├── ImageNet_LT_train.txt
-    └── ImageNet_LT_test.txt
-
+├── MCPA_ACDC
+    ├──ACDC
+    │   ├── test_vol_h5
+    │   │   ├── case0001.npy.h5
+    │   │   └── *.npy.h5
+    │   └── train_npz
+    │       ├── case0005_slice000.npz
+    │       └── *.npz
+    └──lists
+        ├── all.lst
+        ├── test_vol.txt
+        └── train.txt
 ```
+
 
 getting the txt files from [data_txt file Link](https://drive.google.com/drive/folders/1ssoFLGNB_TM-j4VNYtgx9lxfqvACz-8V?usp=sharing)
 
