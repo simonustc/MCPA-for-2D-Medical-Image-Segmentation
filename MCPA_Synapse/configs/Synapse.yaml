@@ -1,0 +1,18 @@
+NAME: 'Synaspe/'
+GPUS: [0,1]
+LR: 0.04
+EPOCH: 400
+MODEL:
+  TYPE: swin
+  NAME: swin_tiny_patch4_window7_224
+  DROP_PATH_RATE: 0.0
+  DROP_RATE: 0.0
+  PRETRAIN_CKPT: "./pretrained/ckpt_S.pth"
+  SWIN:
+    FINAL_UPSAMPLE: "expand_first"
+    EMBED_DIM: [64,128,256,512]
+    DEPTHS: [2, 4, 4, 1]
+    DECODER_DEPTHS: [ 2, 2, 2, 1]
+    NUM_HEADS: [ 2, 4, 8, 16]
+    WINDOW_SIZE: 7
+    MLP_RATIO : [8,8,4,4]
