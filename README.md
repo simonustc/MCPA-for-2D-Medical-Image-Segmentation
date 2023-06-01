@@ -161,7 +161,7 @@
 
 ### MCPA_Synapse
 
-[Links to models](https://drive.google.com/drive/folders/1b932TjGm_-GcuN9Mq24aExk2uZK64LWy?usp=sharing)
+[Links to models](https://drive.google.com/drive/folders/1bAtCNYCFPNREPlEqOd-99goWUr9P_eKt)
 
 ### CRI+PPW+RIDE
 
