@@ -22,7 +22,7 @@
 * tensorboardx>=2.2
 
 ### Download pre-trained Shunted Self-Attention model (SSA-samll)
-[Get pre-trained model in this link] (https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing): Put pretrained SSA-samll into folder "MCPA_Synapse/" and "MCPA_ACDC/"
+[Get pre-trained model in this link] (https://drive.google.com/drive/folders/15iZKXFT7apjUSoN2WUMAbb0tvJgyh3YP): Put pretrained SSA-samll into folder "MCPA_Synapse/pretrained/" and "MCPA_ACDC/pretrained/"
 
 
 ### Dataset Preparation
