@@ -1,0 +1,9 @@
+./Dataset/ROSE-1/SVC/test/img/01.tif ./Dataset/ROSE-1/SVC/test/gt/01.tif /home/xl/mask.bmp
+./Dataset/ROSE-1/SVC/test/img/02.tif ./Dataset/ROSE-1/SVC/test/gt/02.tif /home/xl/mask.bmp
+./Dataset/ROSE-1/SVC/test/img/03.tif ./Dataset/ROSE-1/SVC/test/gt/03.tif /home/xl/mask.bmp
+./Dataset/ROSE-1/SVC/test/img/04.tif ./Dataset/ROSE-1/SVC/test/gt/04.tif /home/xl/mask.bmp
+./Dataset/ROSE-1/SVC/test/img/05.tif ./Dataset/ROSE-1/SVC/test/gt/05.tif /home/xl/mask.bmp
+./Dataset/ROSE-1/SVC/test/img/06.tif ./Dataset/ROSE-1/SVC/test/gt/06.tif /home/xl/mask.bmp
+./Dataset/ROSE-1/SVC/test/img/07.tif ./Dataset/ROSE-1/SVC/test/gt/07.tif /home/xl/mask.bmp
+./Dataset/ROSE-1/SVC/test/img/08.tif ./Dataset/ROSE-1/SVC/test/gt/08.tif /home/xl/mask.bmp
+./Dataset/ROSE-1/SVC/test/img/09.tif ./Dataset/ROSE-1/SVC/test/gt/09.tif /home/xl/mask.bmp
