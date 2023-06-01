@@ -1,0 +1,8 @@
+./Dataset/CHASEDB1/test/images/Image_11L.jpg ./Dataset/CHASEDB1/test/1st_manual/Image_11L_1stHO.png ./Dataset/CHASEDB1/test/mask/Image_11L.png
+./Dataset/CHASEDB1/test/images/Image_11R.jpg ./Dataset/CHASEDB1/test/1st_manual/Image_11R_1stHO.png ./Dataset/CHASEDB1/test/mask/Image_11R.png
+./Dataset/CHASEDB1/test/images/Image_12L.jpg ./Dataset/CHASEDB1/test/1st_manual/Image_12L_1stHO.png ./Dataset/CHASEDB1/test/mask/Image_12L.png
+./Dataset/CHASEDB1/test/images/Image_12R.jpg ./Dataset/CHASEDB1/test/1st_manual/Image_12R_1stHO.png ./Dataset/CHASEDB1/test/mask/Image_12R.png
+./Dataset/CHASEDB1/test/images/Image_13L.jpg ./Dataset/CHASEDB1/test/1st_manual/Image_13L_1stHO.png ./Dataset/CHASEDB1/test/mask/Image_13L.png
+./Dataset/CHASEDB1/test/images/Image_13R.jpg ./Dataset/CHASEDB1/test/1st_manual/Image_13R_1stHO.png ./Dataset/CHASEDB1/test/mask/Image_13R.png
+./Dataset/CHASEDB1/test/images/Image_14L.jpg ./Dataset/CHASEDB1/test/1st_manual/Image_14L_1stHO.png ./Dataset/CHASEDB1/test/mask/Image_14L.png
+./Dataset/CHASEDB1/test/images/Image_14R.jpg ./Dataset/CHASEDB1/test/1st_manual/Image_14R_1stHO.png ./Dataset/CHASEDB1/test/mask/Image_14R.png
