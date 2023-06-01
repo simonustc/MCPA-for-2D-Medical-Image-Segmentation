@@ -105,9 +105,8 @@
 
 ### MCPA_Synapse
 
-`python train.py --cfg ./config/cifar10/cifar10_CRI.yaml`
+`python MCPA_Synapse/train.py --cfg ./configs/Synapse.yaml --root_path ./Synapse/` 
 
-`python train.py --cfg ./config/cifar100/cifar100_CRI.yaml`
 
 #### ImageNet-LT:
 
