@@ -25,7 +25,8 @@
 ### Dataset Preparation
 * For the Synapse datasets we used are provided by TransUnet's authors.[Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). Please go to "MCPA_Synapse/datasets/README.md" for details, or please send an Email to jienengchen01 AT gmail.com to request the preprocessed data. If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License).
 
-* For the ACDC datasets, Please Sign up in the official ACDC website and download the dataset.[Get processed data in this link](https://www.creatis.insa-lyon.fr/Challenge/acdc).Or use the preprocessed data for research purposes.[Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd).
+* For the ACDC datasets, Please Sign up in the [official ACDC website and download the dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc).Or use the preprocessed data for research purposes.[Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd).
+
 
 
 
