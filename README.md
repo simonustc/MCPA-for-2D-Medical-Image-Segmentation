@@ -59,12 +59,12 @@
 * For the datasets of vessel segmentation, please sign up in the [official DRIVE website and download the dataset](https://drive.grand-challenge.org/), [official CHASE_DB1 website and download the dataset](https://blogs.kingston.ac.uk/retinal/chasedb1/), [official HRF website and download the dataset](https://www5.cs.fau.de/research/data/fundus-images/), and [official ROSE website and download the dataset]([https://www5.cs.fau.de/research/data/fundus-images/](https://imed.nimte.ac.cn/dataofrose.html). Please prepare data in the data directory:
 ```
 ├── MCPA_vessel
-    ├──Dataset
+    ├── Dataset
     │   ├── DRIVE
     │   │   ├── training
     │   │   │   ├── images
     │   │   │   │   └── 21_training.tif
-    │   │   │   └── 1st_manual
+    │   │   │   └──1st_manual
     │   │   │       └── 21_manual1.gif
     │   │   └── test
     │   │       ├── images  
@@ -82,16 +82,23 @@
     │   │       │   └── Image_11L.jpg
     │   │       └── 1st_manual
     │   │           └── Image_11L_1stHO.png
-    │   └── RHF
+    │   └── HRF
     │       └── all
     │           ├── images
     │           │   └── 01_test.tif
     │           └── 1st_manual
     │               └── 01_manual1.gif      
-    └──lists
-        ├── all.lst
-        ├── test_vol.txt
-        └── train.txt
+    └── prepare_dataset
+        └── data_path_list
+            ├── DRIVE
+            │   ├── train.txt
+            │   └── test.txt
+            ├── CHASEDB1
+            │   ├── train.txt
+            │   └── test.txt
+            └── HRF
+                ├── train.txt
+                └── test.txt
 ```
 
 
