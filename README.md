@@ -48,10 +48,10 @@
 ├── MCPA_ACDC
     ├──ACDC
     │   ├── test_vol_h5
-    │   │   ├── case0001.npy.h5
+    │   │   ├── patient002.npy.h5
     │   │   └── *.npy.h5
     │   └── train_npz
-    │       ├── case0005_slice000.npz
+    │       ├── patient001_slice000.npz
     │       └── *.npz
     └──lists
         ├── test_vol.txt
