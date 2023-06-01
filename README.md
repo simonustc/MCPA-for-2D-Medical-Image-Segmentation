@@ -184,7 +184,11 @@
 
 ### ROSE
 
+## References
 
+* [TransUNet](https://arxiv.org/pdf/2102.04306.pdf)
+* [Swin-Unet](https://arxiv.org/abs/2105.05537)
+* [ROSE](https://ieeexplore.ieee.org/abstract/document/9284503)
 
 
 
