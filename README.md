@@ -39,7 +39,7 @@
         └── train.txt
 ```
 
-* For the ACDC datasets, Please Sign up in the [official ACDC website and download the dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc). Or please send an Email to xul666@mail.ustc.edu.cn to request the preprocessed data. Please prepare data in the data directory:
+* For the ACDC datasets, Please Sign up in the [official ACDC website and download the dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc). Or [Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd) to use the preprocessed data for we proposed. Please prepare data in the data directory:
 
 ```
 ├── MCPA_ACDC
@@ -56,10 +56,13 @@
         └── train.txt
 ```
 
-* For the ACDC datasets, 
+* For the datasets of retinal fundus segmentation,  
+
+For ImageNet-LT and iNaturalist2018,  Please Sign up in the [official DRIVE website and download the dataset](https://drive.grand-challenge.org/),[official CHASE_DB1 website and download the dataset](https://blogs.kingston.ac.uk/retinal/chasedb1/), [official HRF website and download the dataset](https://drive.grand-challenge.org/)
 
 
-For ImageNet-LT and iNaturalist2018, please prepare data in the data directory:
+
+
 ```
 datasets
 ├── data_txt
