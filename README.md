@@ -139,6 +139,22 @@
 
 `python MCPA_ACDC/test.py --model_path .../epoch_399.pth` 
 
+### MCPA_vessel:
+
+#### DRIVE
+`python MCPA_vessel/config.py --dataset DRIVE --train_data_path_list ./prepare_dataset/data_path_list/DRIVE/train.txt --test_data_path_list ./prepare_dataset/data_path_list/DRIVE/test.txt`
+
+`python MCPA_vessel/train.py`
+
+#### CHASEDB1
+`python MCPA_vessel/config.py --dataset CHASEDB1 --train_data_path_list ./prepare_dataset/data_path_list/CHASEDB1/train.txt --test_data_path_list ./prepare_dataset/data_path_list/CHASEDB1/test.txt`
+
+`python MCPA_vessel/train.py`
+
+#### HRF
+`python MCPA_vessel/config.py --dataset HRF --train_data_path_list ./prepare_dataset/data_path_list/HRF/train.txt --test_data_path_list ./prepare_dataset/data_path_list/HRF/test.txt`
+
+`python MCPA_vessel/train.py`
 
 
 ## Results and Models
