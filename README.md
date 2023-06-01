@@ -21,7 +21,7 @@
 * yacs>=0.1.8
 * tensorboardx>=2.2
 
-### Download pre-trained Shunted Self-Attention model (SSA-samll)
+### Download pre-trained Shunted Self-Attention model (SSA-small)
 [Get pre-trained model in this link](https://drive.google.com/drive/folders/15iZKXFT7apjUSoN2WUMAbb0tvJgyh3YP): Put pretrained SSA-samll into folder "MCPA_Synapse/pretrained/" and "MCPA_ACDC/pretrained/"
 
 
@@ -54,7 +54,6 @@
     │       ├── case0005_slice000.npz
     │       └── *.npz
     └──lists
-        ├── all.lst
         ├── test_vol.txt
         └── train.txt
 ```
