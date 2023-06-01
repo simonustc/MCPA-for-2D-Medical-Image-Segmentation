@@ -21,6 +21,9 @@
 * yacs>=0.1.8
 * tensorboardx>=2.2
 
+### Download pre-trained Shunted Self-Attention model (SSA-samll)
+[Get pre-trained model in this link] (https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing): Put pretrained SSA-samll into folder "MCPA_Synapse/" and "MCPA_ACDC/"
+
 
 ### Dataset Preparation
 * For the Synapse datasets we used are provided by TransUnet's authors.[Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). Please go to "MCPA_Synapse/datasets/README.md" for details, or please send an Email to jienengchen01 AT gmail.com to request the preprocessed data. If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License). Please prepare data in the data directory:
