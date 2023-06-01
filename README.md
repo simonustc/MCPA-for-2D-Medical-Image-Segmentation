@@ -39,7 +39,22 @@
         └── train.txt
 ```
 
-* For the ACDC datasets, Please Sign up in the [official ACDC website and download the dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc). Or please send an Email to xul666@mail.ustc.edu.cn to request the preprocessed data.
+* For the ACDC datasets, Please Sign up in the [official ACDC website and download the dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc). Or please send an Email to xul666@mail.ustc.edu.cn to request the preprocessed data. Please prepare data in the data directory:
+
+```
+├── MCPA_ACDC
+    ├──ACDC
+    │   ├── test_vol_h5
+    │   │   ├── case0001.npy.h5
+    │   │   └── *.npy.h5
+    │   └── train_npz
+    │       ├── case0005_slice000.npz
+    │       └── *.npz
+    └──lists
+        ├── all.lst
+        ├── test_vol.txt
+        └── train.txt
+```
 
 * For the ACDC datasets, 
 
