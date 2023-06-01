@@ -107,41 +107,39 @@
 
 `python MCPA_Synapse/train.py --cfg ./configs/Synapse.yaml --root_path ./Synapse/` 
 
+### MCPA_ACDC:
 
-#### ImageNet-LT:
+`python MCPA_ACDC/train.py --cfg ./config/ACDC.yaml --root_path ./ACDC/`
 
-`python train.py --cfg ./config/imagenet/imagenet_CRI.yaml`
+### MCPA_vessel:
 
-#### ina2018:
+#### DRIVE
+`python MCPA_vessel/config.py --dataset DRIVE --train_data_path_list ./prepare_dataset/data_path_list/DRIVE/train.txt --test_data_path_list ./prepare_dataset/data_path_list/DRIVE/test.txt`
 
-`python train.py --cfg ./config/ina2018/ina2018_CRI.yaml`
+`python MCPA_vessel/train.py`
 
-### CRI+PPW+RIDE
+#### CHASEDB1
+`python MCPA_vessel/config.py --dataset CHASEDB1 --train_data_path_list ./prepare_dataset/data_path_list/CHASEDB1/train.txt --test_data_path_list ./prepare_dataset/data_path_list/CHASEDB1/test.txt`
 
-#### Imbalance cifar10 & cifar100:
+`python MCPA_vessel/train.py`
 
-`python train.py --cfg ./config/cifar10.json`
+#### HRF
+`python MCPA_vessel/config.py --dataset HRF --train_data_path_list ./prepare_dataset/data_path_list/HRF/train.txt --test_data_path_list ./prepare_dataset/data_path_list/HRF/test.txt`
 
-`python train.py --cfg ./config/cifar100.json`
-
-#### ImageNet-LT:
-
-`python train.py --cfg ./config/imagenet.json`
-
-#### ina2018:
-
-`python train.py --cfg ./config/ina2018.json`
+`python MCPA_vessel/train.py`
 
 
-## Validation
+## Test
 
-### CRI+PPL
+### MCPA_Synapse
 
-`python eval.py --cfg ./config/....yaml resume /path/ckps/...pth.tar`
+`python MCPA_Synapse/test.py --model_path .../epoch_399.pth` 
 
-### CRI+PPW+RIDE
+### MCPA_ACDC
 
-`python eval.py --cfg ./config/....json --resume /path/...pth`
+`python MCPA_ACDC/test.py --model_path .../epoch_399.pth` 
+
+
 
 
 ## Results and Models
