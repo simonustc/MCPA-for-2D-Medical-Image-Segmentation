@@ -1,0 +1,21 @@
+NAME: 'ACDC/6.03/6.03-1/epoch400_lr0.04_[2 4 4 1]-0'
+GPUS: [1,2,3]
+LR: 0.04
+EPOCH: 199
+MODEL:
+  TYPE: swin
+  NAME: swin_tiny_patch4_window7_224
+  DROP_PATH_RATE: 0.0
+  DROP_RATE: 0.0
+  #PRETRAIN_CKPT:
+  #PRETRAIN_CKPT: "/home/ssw/4T/XL/7.4vanunet/weights/ckpt_S.pth"
+  PRETRAIN_CKPT: "/home/ssw/4T/XL/7.4vanunet/Unet-code/output/8.2acdc/3.20-lr0.04-epoch400-[2, 4, 12, 1]/ACDC/6.03/6.03-1/epoch400_lr0.04_[2 4 4 1]-0/0/epoch_399.pth"
+  #PRETRAIN_CKPT: "/home/xmj/4T/work/VAN-Unet/VAN-Unet-3.31/output/epoch_149.pth"
+  SWIN:
+    FINAL_UPSAMPLE: "expand_first"
+    EMBED_DIM: [64,128,256,512]
+    DEPTHS: [2, 4, 4, 1]
+    DECODER_DEPTHS: [ 2, 2, 2, 1]
+    NUM_HEADS: [ 2, 4, 8, 16]
+    WINDOW_SIZE: 7
+    MLP_RATIO : [8,8,4,4]
