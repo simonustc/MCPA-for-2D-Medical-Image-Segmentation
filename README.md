@@ -42,7 +42,7 @@
         └── train.txt
 ```
 
-* For the ACDC datasets, please sign up in the [official ACDC website and download the dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc). Or [Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd) to use the preprocessed data for we proposed. Please prepare data in the data directory:
+* For the ACDC datasets, please sign up in the [official ACDC website and download the dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc). Or [Get processed data in this link](https://drive.google.com/drive/folders/1jmr9nKxK5AjifjSLcol65ixzFvRyFfgD) to use the preprocessed data for we proposed. Please prepare data in the data directory:
 
 ```
 ├── MCPA_ACDC
@@ -98,7 +98,10 @@
             ├── CHASEDB1
             │   ├── train.txt
             │   └── test.txt
-            └── HRF
+            ├── HRF
+            │   ├── train.txt
+            │   └── test.txt
+            └── ROSE
                 ├── train.txt
                 └── test.txt
 ```
@@ -167,7 +170,7 @@
 
 ### MCPA_ACDC
 
-[Links to models]()
+[Links to models](https://drive.google.com/drive/folders/1Rp1sLpIzJb2JYNR1GMRJwi7CnHkbDCBX)
 
 ### DRIVE
 
@@ -182,6 +185,8 @@
 [Links to models](https://drive.google.com/drive/folders/1Gqa-CzupxTfZOoYrZI2YF1JIEHavp5Md)
 
 ### ROSE
+
+[Links to models](https://drive.google.com/drive/folders/1ws8tWxcNRnYJG5mzHILOyHtIi2J8kXS-)
 
 ## References
 
