@@ -25,13 +25,7 @@
 ### Dataset Preparation
 * For the Synapse datasets we used are provided by TransUnet's authors.[Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). Please go to "MCPA_Synapse/datasets/README.md" for details, or please send an Email to jienengchen01 AT gmail.com to request the preprocessed data. If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License). Please prepare data in the data directory:
 ```
-├── TransUNet
-│   ├──datasets
-│   │       └── dataset_*.py
-│   ├──train.py
-│   ├──test.py
-│   └──
-└── MCPA_Synapse
+├── MCPA_Synapse
     ├──Synapse
     │   ├── test_vol_h5
     │   │   ├── case0001.npy.h5
@@ -39,7 +33,7 @@
     │   └── train_npz
     │       ├── case0005_slice000.npz
     │       └── *.npz
-    ├──lists
+    └──lists
         ├── all.lst
         ├── test_vol.txt
         └── train.txt
