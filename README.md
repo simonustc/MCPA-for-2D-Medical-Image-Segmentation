@@ -1,1 +1,2 @@
-# MCPA-Multi-scale-Cross-Perceptron-Attention-Network-for-2D-Medical-Image-Segmentation
+# MCPA-for-2D-Medical-Image-Segmentation
+
