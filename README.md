@@ -25,13 +25,9 @@
 ### Dataset Preparation
 * For the Synapse datasets we used are provided by TransUnet's authors.[Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). Please go to "MCPA_Synapse/datasets/README.md" for details, or please send an Email to jienengchen01 AT gmail.com to request the preprocessed data. If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License).
 
-* For the ACDC datasets, Please Sign up in the official ACDC website and download the dataset. Or use the preprocessed data for research purposes[Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd).
+* For the ACDC datasets, Please Sign up in the official ACDC website and download the dataset.[Get processed data in this link](https://www.creatis.insa-lyon.fr/Challenge/acdc/d).Or use the preprocessed data for research purposes.[Get processed data in this link](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd).
 
-* [cifar10 & cifar100](https://www.cs.toronto.edu/~kriz/cifar.html)
 
-* [ImageNet](http://image-net.org/index)
-
-* [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018)
 
 For ImageNet-LT and iNaturalist2018, please prepare data in the data directory:
 ```
