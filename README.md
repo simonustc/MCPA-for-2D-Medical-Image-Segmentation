@@ -101,23 +101,9 @@
                 └── test.txt
 ```
 
-
-getting the txt files from [data_txt file Link](https://drive.google.com/drive/folders/1ssoFLGNB_TM-j4VNYtgx9lxfqvACz-8V?usp=sharing)
-
-For CRI+PPL, change the `data_path` in `config/.../.yaml`;
-
-For CRI+PPW+RIDE, change the `data_loader:{data_dir} in `./config/...json`.
-
-
 ## Training
 
-one GPU for Imbalance cifar10 & cifar100, two GPUs for ImageNet-LT, and eight GPUs iNaturalist2018.
-
-Backbone network can be resnet32 for Imbalance cifar10 & cifar100, resnet10 for ImageNet-LT, and resnet50 for iNaturalist2018.
-
-### CRI+PPL
-
-#### Imbalance cifar10 & cifar100:
+### MCPA_Synapse
 
 `python train.py --cfg ./config/cifar10/cifar10_CRI.yaml`
 
