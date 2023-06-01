@@ -141,10 +141,9 @@
 
 
 
-
 ## Results and Models
 
-### CRI+PPL
+### MCPA_Synapse
 
 [Links to models](https://drive.google.com/drive/folders/1b932TjGm_-GcuN9Mq24aExk2uZK64LWy?usp=sharing)
 
