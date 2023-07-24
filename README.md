@@ -173,21 +173,7 @@ Implementation for paper MCPA: Multi-scale Cross Perceptron Attention Network fo
 
 [Links to models](https://drive.google.com/drive/folders/1Rp1sLpIzJb2JYNR1GMRJwi7CnHkbDCBX)
 
-### DRIVE
 
-[Links to models](https://drive.google.com/drive/folders/1-FqxL2V8rOpURrllmBOSMnliSJVsL7HN)
-
-### CHASEDB1
-
-[Links to models](https://drive.google.com/drive/folders/1CzBNRn_OZBdtd7cSn8f8vIDjl7WAFeH5)
-
-### HRF
-
-[Links to models](https://drive.google.com/drive/folders/1Gqa-CzupxTfZOoYrZI2YF1JIEHavp5Md)
-
-### ROSE
-
-[Links to models](https://drive.google.com/drive/folders/1ws8tWxcNRnYJG5mzHILOyHtIi2J8kXS-)
 
 ## References
 
